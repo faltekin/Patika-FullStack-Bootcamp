@@ -8,7 +8,7 @@ public class Main {
             return 1;
         }
 
-        return fib(n-1) + fib(n-2);
+        return fib(n-1) + fib(n-2);             // recursive
     }
 
     public static void main(String[] args) {
