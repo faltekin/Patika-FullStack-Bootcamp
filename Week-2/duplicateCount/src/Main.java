@@ -6,7 +6,7 @@ public class Main {
 
         boolean[] isFind = new boolean[length];
 
-        for (int i=0;i<length;i++){
+        for (int i=0;i<length;i++){             // Bütün liste döngüye sokulur
 
             int counter=0;
 
@@ -14,7 +14,7 @@ public class Main {
                 continue;
             }
 
-            for (int j=0;j<length;j++){         // Bütün liste döngüye sokulur
+            for (int j=0;j<length;j++){
 
                 if (list[i] == list[j]){
                     isFind[j] = true;
