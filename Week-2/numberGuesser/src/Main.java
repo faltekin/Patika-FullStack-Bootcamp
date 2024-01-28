@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Random rand = new Random();
-        int number = rand.nextInt(100);     // 0 - 100 arası rastgele sayı üretir
+        int number = rand.nextInt(100);     //  0 - 100 arası rastgele sayı üretir
 
 
         Scanner input = new Scanner(System.in);
         int right = 0;
         int selected;
-        int[] wrong = new int[5];
+        int[] wrong = new int[5];       // yanlış girilenleri wrong ile tutuyoruz
         boolean isWin = false;
         boolean isWrong = false;
 
@@ -52,7 +52,7 @@ public class Main {
         if (!isWin) {
             System.out.println("Kaybettiniz ! ");
             if (!isWrong) {
-                System.out.println("Tahminleriniz : " + Arrays.toString(wrong));
+                System.out.println("Tahminleriniz : " + Arrays.toString(wrong));    
             }
         }
 

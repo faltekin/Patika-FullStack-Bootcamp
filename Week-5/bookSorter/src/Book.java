@@ -3,7 +3,7 @@ public class Book implements Comparable<Book>{
 
     private String name;
     private int pageNumber;
-    private  String authorName;
+    private String authorName;
     private String publishDate;
 
     public Book(java.lang.String name, int pageNumber, java.lang.String authorName, java.lang.String publishDate) {
