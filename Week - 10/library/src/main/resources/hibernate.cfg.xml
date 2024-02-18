@@ -1,0 +1,21 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">org.postgresql.Driver</property>
+        <property name="connection.url">jdbc:postgresql://localhost/hibernate</property>
+        <property name="connection.username">postgres</property>
+        <property name="connection.password">12345</property>
+        <property name="hbm2ddl.auto">update</property>
+        <property name="connection.pool_size">1</property>
+        <property name="dialecct">org.hibernate.dialect.PostgreSQLDialect</property>
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+        <mapping class="org.example.entity.Author"/>
+        <mapping class="org.example.entity.Book"/>
+        <mapping class="org.example.entity.BookBorrowing"/>
+        <mapping class="org.example.entity.Category"/>
+        <mapping class="org.example.entity.Publisher"/>
+    </session-factory>
+</hibernate-configuration>
