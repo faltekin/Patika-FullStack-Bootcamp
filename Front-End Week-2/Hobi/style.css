@@ -1,0 +1,149 @@
+body{
+    background-color:#151419;
+}
+
+header{
+    padding: 10px;
+    text-align: center;
+    background-color: #F56E0F;
+    color: #FBFBFB;
+}
+
+
+nav{
+    background-color: #262626;
+    padding-top: 5px;
+    
+}
+
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+   
+}
+
+nav ul li a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #FBFBFB;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    grid-template-areas: "movie-1"
+                         "movie-2"
+                         "footer";
+}
+
+.movie-1{
+    display: grid;
+    padding: 10px;
+}
+
+.movie-1 img {
+    width: 300px; 
+    height: auto; 
+}
+
+.movie-1 p {
+    grid-column: 2; 
+    margin-left: 20px; 
+    color: #FBFBFB;
+}
+
+.movie-2{
+    display: grid;
+    padding: 10px;
+}
+
+.movie-2 img {
+    width: 300px; 
+    height: auto; 
+}
+
+.movie-2 p {
+    grid-column: 2; 
+    margin-left: 20px; 
+    color: #FBFBFB;
+}
+
+.footer{
+    display: grid;
+    background-color: #F56E0F;
+    padding: 2px;
+    text-align: center;
+}
+
+.footer p {
+    color: #FBFBFB;
+}
+
+.about{
+    color: #FBFBFB;
+}
+
+
+.container-gallery {
+    display: grid;
+    grid-template-areas: 
+        "gallery-movie-1 gallery-movie-2"
+        "gallery-movie-3 gallery-movie-4";
+}
+
+.gallery-movie-1 img {
+    width: 300px; 
+    height: auto; 
+}
+
+.gallery-movie-2 img {
+    width: 300px; 
+    height: auto; 
+}
+
+.gallery-movie-3 img {
+    width: 300px; 
+    height: auto; 
+}
+
+.gallery-movie-4 img {
+    width: 300px; 
+    height: auto; 
+}
+
+.gallery-movie-1{
+    display: grid;
+    padding: 10px;
+}
+
+.gallery-movie-2{
+    display: grid;
+    padding: 10px;
+}
+
+.gallery-movie-3{
+    display: grid;
+    padding: 10px;
+}
+
+.gallery-movie-4{
+    display: grid;
+    padding: 10px;
+}
+
+.contact{
+    background-color: #878787;
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 10px; 
+    
+}
