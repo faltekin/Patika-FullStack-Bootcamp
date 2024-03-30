@@ -1,0 +1,71 @@
+
+.clr{
+    background-color: #E9ECEF;
+}
+
+.movie-1 img{
+    width: 200px; 
+    height: auto; 
+}
+
+.footer {
+    
+    background-color: #F56E0F;
+    text-align: center;
+    
+}
+
+.body-movie{
+
+    background-color: #E9ECEF;
+}
+
+.nav-col{
+    background-color: #262626;
+    
+}
+
+.container-gallery{
+
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    grid-template-areas: "gallery-1 gallery-2 gallery-3";
+                         
+                  
+}
+
+.movie-gallery-1{
+    grid-area: gallery-1;
+}
+.movie-gallery-1 img {
+    width: 70%; 
+    height: 70%; 
+}
+
+.movie-gallery-2{
+    grid-area: gallery-2;
+}
+.movie-gallery-2 img {
+    width: 70%; 
+    height: 70%; 
+}
+
+.movie-gallery-3{
+    grid-area: gallery-3;
+}
+.movie-gallery-3 img {
+    width: 70%; 
+    height: 70%; 
+}
+
+.container-about{
+    padding: 20px;
+}
+
+.index-card{
+    justify-content: center;
+    align-items: center;
+}
